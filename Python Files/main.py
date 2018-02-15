@@ -152,7 +152,7 @@ def brokerconnect(Json):
     m_id=machine.unique_id()
     client = MQTTClient(m_id, '192.168.0.10')
     client.connect()
-    client.publish('esys/stripes', bytes(Json, 'utf-8'))
+    client.publish('esys/stripesandsquares', bytes(Json, 'utf-8'))
     client.disconnect()
 
 
