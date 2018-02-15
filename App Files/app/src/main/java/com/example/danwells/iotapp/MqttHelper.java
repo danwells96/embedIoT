@@ -22,7 +22,7 @@ public class MqttHelper {
 
     final String serverUri = "tcp://m23.cloudmqtt.com:12312";
     final String clientId = "ExampleAndroidClient";
-    final String subscriptionTopic = "esys/stripes";
+    final String subscriptionTopic = "esys/stripesandsquares";
 
     final String username = "lknzcwhj";
     final String password = "Kv_nd_cs-Iy-";
